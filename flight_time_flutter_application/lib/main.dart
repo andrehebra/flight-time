@@ -1,7 +1,14 @@
+import 'package:flight_time_flutter_application/login_signup/login_signup_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
+    initialRoute: LoginSignupPage.routeName,
+    routes: {
+      LoginSignupPage.routeName: (context) => const LoginSignupPage(),
+    },
+  ));
 }
 
 class MainApp extends StatelessWidget {
