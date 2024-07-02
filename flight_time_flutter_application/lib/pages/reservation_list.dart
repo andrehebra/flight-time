@@ -1,5 +1,6 @@
 import 'package:flight_time_flutter_application/components/main_app_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 class ReservationListPage extends StatelessWidget {
   const ReservationListPage({super.key});
@@ -45,6 +46,7 @@ class ReservationListPage extends StatelessWidget {
           ),
         ),
       );
+      returnList.add(const SizedBox(height: 10));
     }
 
     return returnList;
