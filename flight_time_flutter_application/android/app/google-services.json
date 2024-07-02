@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "738093042158",
+    "project_id": "flight-time-8d383",
+    "storage_bucket": "flight-time-8d383.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738093042158:android:ec51edfe601d408808a6ff",
+        "android_client_info": {
+          "package_name": "com.andrehebra.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7Q6bXpggmjrZ-UWIQiaOW_1xcADK_X6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

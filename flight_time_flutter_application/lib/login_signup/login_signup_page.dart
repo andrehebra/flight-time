@@ -12,7 +12,9 @@ class LoginSignupPage extends StatelessWidget {
     return const MaterialApp(
       home: Scaffold(
         appBar: MainAppBar(title: "Login"),
-        body: Center(child: Text("login signup screen here")),
+        body: Center(
+          child: Text("login signup screen here"),
+        ),
       ),
     );
   }
